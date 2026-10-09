@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Backup files & internal preparation
+*_backup.ipynb
+build_pdfs.py
+*.pdf
+
+# Model weights & large binaries
+*.pkl
+*.pth
+*.pt
+*.onnx
+
+# Secrets & credentials
+kaggle.json
+.env
+*.key
+*.token
+
+# Environments
+venv/
+.venv/
+env/
+ENV/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
